@@ -17,24 +17,15 @@
   <!-- Target resolution in dpi (dots/pixels per inch) for specifying the target resolution for generated bitmaps, default: 72dpi -->
   <target-resolution>72</target-resolution>
 
-  <!-- Use file name nl_Bel instead of the default nl_BE -->
-  <hyphenation-pattern lang="de" country="DE">de</hyphenation-pattern>
   
   <!-- Accessibility -->
   <accessibility>true</accessibility>
 
   <renderers>
 	  <renderer mime="application/pdf">
-		  <fonts>
-			  <!-- register all the fonts found in a directory -->
-              <font kerning="yes" embed-url="./fonts/BundesSerifOffice-Regular.ttf" embedding-mode="subset">
-                  <font-triplet name="BundesSerifOffice-Regular" style="normal" weight="normal"/>
-              </font>
-			  <auto-detect/>
-		  </fonts>
-		  <!--
-		  <pdf-ua-mode>PDF/UA-1</pdf-ua-mode> 
-		  -->
+	  <!--
+	  <pdf-ua-mode>PDF/UA-1</pdf-ua-mode> 
+	  -->
 	  </renderer>
   </renderers>
 </fop>
