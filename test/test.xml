@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+	xml:lang="en">
+    <info>
+        <title>Title</title>
+        <subtitle>Subtitle</subtitle>
+        <date></date>
+    </info>
+    <toc/>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Test Document</title>
+</info>
+
+<section>
+<title>Level 1</title>
+<para>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</para>
+	<section>
+		<title>Level 2</title>
+		<para>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</para>
+		<section>
+			<title>Level 3</title>
+			<para>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</para>
+			<section>
+				<title>Level 4</title>
+				<para>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</para>
+				<section>
+					<title>Level 5</title>
+					<para>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</para>
+				</section>
+			</section>
+		</section>
+	</section>
+</section>
+</chapter>
+</book>
