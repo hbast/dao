@@ -118,7 +118,7 @@ if __name__ == '__main__':
         node.set('role', 'artifact')
 
     # optimizing nested fo:blocks
-    for node in tree.findall('.//fo:flow/fo:block', namespaces):
+    for node in tree.findall('.//fo:flow//fo:block', namespaces):
         reduce_block(node)
 
     fob_count_end = len(tree.findall('.//fo:block', namespaces))
